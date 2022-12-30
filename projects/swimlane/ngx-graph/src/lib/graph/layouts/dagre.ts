@@ -1,7 +1,7 @@
 import { Layout } from '../../models/layout.model';
 import { Graph } from '../../models/graph.model';
 import { id } from '../../utils/id';
-import * as dagre from 'dagre';
+import dagre from '../../../../../../../convertedimports';
 import { Edge } from '../../models/edge.model';
 
 export enum Orientation {

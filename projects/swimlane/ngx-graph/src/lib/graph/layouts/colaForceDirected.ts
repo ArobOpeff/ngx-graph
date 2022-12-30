@@ -2,7 +2,15 @@ import { Layout } from '../../models/layout.model';
 import { Graph } from '../../models/graph.model';
 import { Node, ClusterNode } from '../../models/node.model';
 import { id } from '../../utils/id';
-import { d3adaptor, ID3StyleLayoutAdaptor, Layout as ColaLayout, Group, InputNode, Link, Rectangle } from 'webcola';
+import {
+  d3adaptor,
+  ID3StyleLayoutAdaptor,
+  Layout as ColaLayout,
+  Group,
+  InputNode,
+  Link,
+  Rectangle
+} from '../../../../../../../convertedimports';
 import * as d3Dispatch from 'd3-dispatch';
 import * as d3Force from 'd3-force';
 import * as d3Timer from 'd3-timer';
