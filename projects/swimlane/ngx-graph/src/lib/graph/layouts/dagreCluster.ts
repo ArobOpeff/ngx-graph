@@ -1,7 +1,7 @@
 import { Layout } from '../../models/layout.model';
 import { Graph } from '../../models/graph.model';
 import { id } from '../../utils/id';
-import dagre from '../../../../../../../convertedimports';
+import dagre from 'dagre-webcola-esm/convertedimports.js';
 import { Edge } from '../../models/edge.model';
 import { Node, ClusterNode } from '../../models/node.model';
 import { DagreSettings, Orientation } from './dagre';

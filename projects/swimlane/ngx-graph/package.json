@@ -1,10 +1,10 @@
 {
-  "name": "@swimlane/ngx-graph",
-  "version": "8.0.2",
-  "description": "Graph visualization for angular",
+  "name": "modified-ngx-graph",
+  "version": "8.0.5",
+  "description": "A forked and modified version of swimlane's ngx graph",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/swimlane/ngx-graph.git"
+    "url": "git+https://github.com/ArobOpeff/ngx-graph.git"
   },
   "keywords": [
     "angular",
@@ -18,16 +18,15 @@
     "directed acyclic graph",
     "dag"
   ],
-  "author": "Swimlane",
+  "author": "Albin Robert",
   "maintainers": [
-    "Marjan Georgiev",
-    "Assaf Shemesh"
+    "Albin Robert"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/swimlane/ngx-graph/issues"
+    "url": "https://github.com/ArobOpeff/ngx-graph.git"
   },
-  "homepage": "https://github.com/swimlane/ngx-graph#readme",
+  "homepage": "https://github.com/ArobOpeff/ngx-graph.git",
   "peerDependencies": {
     "@angular/animations": "10.x || 11.x || 12.x || 13.x || 14.x",
     "@angular/common": "10.x || 11.x || 12.x || 13.x || 14.x",
@@ -47,6 +46,7 @@
     "dagre": "^0.8.4",
     "transformation-matrix": "^1.15.3",
     "tslib": "^2.0.0",
-    "webcola": "^3.3.8"
+    "webcola": "^3.3.8",
+    "dagre-webcola-esm": "^1.0.0"
   }
 }

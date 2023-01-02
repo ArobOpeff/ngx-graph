@@ -10,7 +10,7 @@ import {
   InputNode,
   Link,
   Rectangle
-} from '../../../../../../../convertedimports';
+} from 'dagre-webcola-esm/convertedimports.js';
 import * as d3Dispatch from 'd3-dispatch';
 import * as d3Force from 'd3-force';
 import * as d3Timer from 'd3-timer';
